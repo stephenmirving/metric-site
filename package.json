@@ -1,0 +1,42 @@
+{
+  "name": "metric-site",
+  "version": "0.0.1",
+  "description": "The website for Metric Design & Development",
+  "private": true,
+  "keywords": [
+    "homepage",
+    "business",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "author": "Stephen M Irving",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "clean-css": "^5.3.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "html-webpack-plugin": "^5.5.3",
+    "htmlhint": "^1.1.4",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "postcss-scss": "^4.0.9",
+    "prettier": "3.1.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "stylelint-scss": "^6.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  }
+}
